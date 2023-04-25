@@ -40,7 +40,7 @@ const Popularjobs = () => {
           ) : error ? (
             <Text> Something went wrong  </Text>
           ) : (
-            <FlatList  
+            <FlatList
               data={data}
               keyExtractor={ item => item.toString() }
               renderItem={({item})=> (
